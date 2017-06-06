@@ -1,2 +1,2 @@
-# bloq-field
-Reusable components field for ACF
+# Reusable blocks layouts for Wordpress ACF
+

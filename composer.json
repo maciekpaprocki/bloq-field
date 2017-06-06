@@ -1,0 +1,22 @@
+{
+    "name": "maciejpaprocki/bloq-field",
+    "description": "Reusable blocks field for wordpress advanced custom fields",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej",
+            "email": "maciekpaprocki@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "bin/behat"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
