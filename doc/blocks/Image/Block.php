@@ -23,7 +23,7 @@ class Block
      * Block constructor.
      * @param LoggerInterface $logger
      */
-    public function __construct(LoggerInterface $logger, )
+    public function __construct(LoggerInterface $logger)
     {
         $this->_logger = $logger;
     }
@@ -35,7 +35,6 @@ class Block
 
     public function getCacheKey()
     {
-
     }
 
 
